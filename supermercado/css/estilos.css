@@ -1,0 +1,79 @@
+.menu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(246, 115, 115);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu .logo a img{
+    width: 100px;
+}
+.enlaces ul{
+    list-style: none;
+    display: flex;
+}
+.enlaces ul li{
+    margin-right: 10px;
+}
+.enlaces ul li a{
+    text-decoration:none;
+    font-size: 20px;
+    color: white;
+}
+.enlaces ul li a:hover{
+    border-bottom: 1px solid white;
+
+}
+.iconos i,
+.iconos svg{
+    margin-right: 5px;
+    color:red;
+    background-color:white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.iconos i:hover,
+.iconos svg:hover{
+    color:white;
+    background-color:red;
+    font-size: 25px;
+}
+/*estilos principal*/
+.principal{
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagen/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.principal .con-texto{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+}
+.principal .con-texto h1{
+    font-size: 50px;
+    color: red;
+}
+.principal .con-texto p{
+    font-size: 30px;
+}
+.principal .con-texto a{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    padding: 7px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.principal .imagen-trabajadores-d1 img{
+    width: 75%;
+    height: 50%;
+    border-radius: 20px;
+}
